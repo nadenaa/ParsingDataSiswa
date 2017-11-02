@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32759011FAACA57005D927E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32759001FAACA57005D927E /* AppDelegate.swift */; };
+		D32759061FAACA57005D927E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32759041FAACA57005D927E /* Main.storyboard */; };
+		D32759081FAACA57005D927E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32759071FAACA57005D927E /* Assets.xcassets */; };
+		D327590B1FAACA57005D927E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32759091FAACA57005D927E /* LaunchScreen.storyboard */; };
+		D32759161FAACA57005D927E /* ParsingDataSiswaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32759151FAACA57005D927E /* ParsingDataSiswaTests.swift */; };
+		D32759211FAACA57005D927E /* ParsingDataSiswaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32759201FAACA57005D927E /* ParsingDataSiswaUITests.swift */; };
+		D327592F1FAACB29005D927E /* KivaLoanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D327592E1FAACB29005D927E /* KivaLoanTableViewController.swift */; };
+		D32759311FAACBA3005D927E /* loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32759301FAACBA3005D927E /* loan.swift */; };
+		D32759331FAACE54005D927E /* KivaLoanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32759321FAACE54005D927E /* KivaLoanTableViewCell.swift */; };
+		D32759351FAAD1DA005D927E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32759341FAAD1DA005D927E /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32759121FAACA57005D927E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32758F51FAACA57005D927E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32758FC1FAACA57005D927E;
+			remoteInfo = ParsingDataSiswa;
+		};
+		D327591D1FAACA57005D927E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32758F51FAACA57005D927E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32758FC1FAACA57005D927E;
+			remoteInfo = ParsingDataSiswa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D32758FD1FAACA57005D927E /* ParsingDataSiswa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParsingDataSiswa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32759001FAACA57005D927E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D32759051FAACA57005D927E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32759071FAACA57005D927E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D327590A1FAACA57005D927E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D327590C1FAACA57005D927E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32759111FAACA57005D927E /* ParsingDataSiswaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParsingDataSiswaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32759151FAACA57005D927E /* ParsingDataSiswaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingDataSiswaTests.swift; sourceTree = "<group>"; };
+		D32759171FAACA57005D927E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D327591C1FAACA57005D927E /* ParsingDataSiswaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParsingDataSiswaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32759201FAACA57005D927E /* ParsingDataSiswaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsingDataSiswaUITests.swift; sourceTree = "<group>"; };
+		D32759221FAACA57005D927E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D327592E1FAACB29005D927E /* KivaLoanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KivaLoanTableViewController.swift; sourceTree = "<group>"; };
+		D32759301FAACBA3005D927E /* loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loan.swift; sourceTree = "<group>"; };
+		D32759321FAACE54005D927E /* KivaLoanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KivaLoanTableViewCell.swift; sourceTree = "<group>"; };
+		D32759341FAAD1DA005D927E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32758FA1FAACA57005D927E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D327590E1FAACA57005D927E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32759191FAACA57005D927E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32758F41FAACA57005D927E = {
+			isa = PBXGroup;
+			children = (
+				D32758FF1FAACA57005D927E /* ParsingDataSiswa */,
+				D32759141FAACA57005D927E /* ParsingDataSiswaTests */,
+				D327591F1FAACA57005D927E /* ParsingDataSiswaUITests */,
+				D32758FE1FAACA57005D927E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32758FE1FAACA57005D927E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32758FD1FAACA57005D927E /* ParsingDataSiswa.app */,
+				D32759111FAACA57005D927E /* ParsingDataSiswaTests.xctest */,
+				D327591C1FAACA57005D927E /* ParsingDataSiswaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32758FF1FAACA57005D927E /* ParsingDataSiswa */ = {
+			isa = PBXGroup;
+			children = (
+				D32759001FAACA57005D927E /* AppDelegate.swift */,
+				D32759041FAACA57005D927E /* Main.storyboard */,
+				D32759071FAACA57005D927E /* Assets.xcassets */,
+				D32759091FAACA57005D927E /* LaunchScreen.storyboard */,
+				D327590C1FAACA57005D927E /* Info.plist */,
+				D327592E1FAACB29005D927E /* KivaLoanTableViewController.swift */,
+				D32759301FAACBA3005D927E /* loan.swift */,
+				D32759321FAACE54005D927E /* KivaLoanTableViewCell.swift */,
+				D32759341FAAD1DA005D927E /* ViewController.swift */,
+			);
+			path = ParsingDataSiswa;
+			sourceTree = "<group>";
+		};
+		D32759141FAACA57005D927E /* ParsingDataSiswaTests */ = {
+			isa = PBXGroup;
+			children = (
+				D32759151FAACA57005D927E /* ParsingDataSiswaTests.swift */,
+				D32759171FAACA57005D927E /* Info.plist */,
+			);
+			path = ParsingDataSiswaTests;
+			sourceTree = "<group>";
+		};
+		D327591F1FAACA57005D927E /* ParsingDataSiswaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D32759201FAACA57005D927E /* ParsingDataSiswaUITests.swift */,
+				D32759221FAACA57005D927E /* Info.plist */,
+			);
+			path = ParsingDataSiswaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32758FC1FAACA57005D927E /* ParsingDataSiswa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32759251FAACA57005D927E /* Build configuration list for PBXNativeTarget "ParsingDataSiswa" */;
+			buildPhases = (
+				D32758F91FAACA57005D927E /* Sources */,
+				D32758FA1FAACA57005D927E /* Frameworks */,
+				D32758FB1FAACA57005D927E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParsingDataSiswa;
+			productName = ParsingDataSiswa;
+			productReference = D32758FD1FAACA57005D927E /* ParsingDataSiswa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32759101FAACA57005D927E /* ParsingDataSiswaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32759281FAACA57005D927E /* Build configuration list for PBXNativeTarget "ParsingDataSiswaTests" */;
+			buildPhases = (
+				D327590D1FAACA57005D927E /* Sources */,
+				D327590E1FAACA57005D927E /* Frameworks */,
+				D327590F1FAACA57005D927E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32759131FAACA57005D927E /* PBXTargetDependency */,
+			);
+			name = ParsingDataSiswaTests;
+			productName = ParsingDataSiswaTests;
+			productReference = D32759111FAACA57005D927E /* ParsingDataSiswaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D327591B1FAACA57005D927E /* ParsingDataSiswaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D327592B1FAACA57005D927E /* Build configuration list for PBXNativeTarget "ParsingDataSiswaUITests" */;
+			buildPhases = (
+				D32759181FAACA57005D927E /* Sources */,
+				D32759191FAACA57005D927E /* Frameworks */,
+				D327591A1FAACA57005D927E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D327591E1FAACA57005D927E /* PBXTargetDependency */,
+			);
+			name = ParsingDataSiswaUITests;
+			productName = ParsingDataSiswaUITests;
+			productReference = D327591C1FAACA57005D927E /* ParsingDataSiswaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32758F51FAACA57005D927E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = yusron;
+				TargetAttributes = {
+					D32758FC1FAACA57005D927E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D32759101FAACA57005D927E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D32758FC1FAACA57005D927E;
+					};
+					D327591B1FAACA57005D927E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D32758FC1FAACA57005D927E;
+					};
+				};
+			};
+			buildConfigurationList = D32758F81FAACA57005D927E /* Build configuration list for PBXProject "ParsingDataSiswa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32758F41FAACA57005D927E;
+			productRefGroup = D32758FE1FAACA57005D927E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32758FC1FAACA57005D927E /* ParsingDataSiswa */,
+				D32759101FAACA57005D927E /* ParsingDataSiswaTests */,
+				D327591B1FAACA57005D927E /* ParsingDataSiswaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32758FB1FAACA57005D927E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D327590B1FAACA57005D927E /* LaunchScreen.storyboard in Resources */,
+				D32759081FAACA57005D927E /* Assets.xcassets in Resources */,
+				D32759061FAACA57005D927E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D327590F1FAACA57005D927E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D327591A1FAACA57005D927E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32758F91FAACA57005D927E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32759351FAAD1DA005D927E /* ViewController.swift in Sources */,
+				D327592F1FAACB29005D927E /* KivaLoanTableViewController.swift in Sources */,
+				D32759331FAACE54005D927E /* KivaLoanTableViewCell.swift in Sources */,
+				D32759011FAACA57005D927E /* AppDelegate.swift in Sources */,
+				D32759311FAACBA3005D927E /* loan.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D327590D1FAACA57005D927E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32759161FAACA57005D927E /* ParsingDataSiswaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32759181FAACA57005D927E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32759211FAACA57005D927E /* ParsingDataSiswaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D32759131FAACA57005D927E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32758FC1FAACA57005D927E /* ParsingDataSiswa */;
+			targetProxy = D32759121FAACA57005D927E /* PBXContainerItemProxy */;
+		};
+		D327591E1FAACA57005D927E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32758FC1FAACA57005D927E /* ParsingDataSiswa */;
+			targetProxy = D327591D1FAACA57005D927E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D32759041FAACA57005D927E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32759051FAACA57005D927E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32759091FAACA57005D927E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D327590A1FAACA57005D927E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32759231FAACA57005D927E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D32759241FAACA57005D927E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D32759261FAACA57005D927E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingDataSiswa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smk-idn.ParsingDataSiswa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D32759271FAACA57005D927E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingDataSiswa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smk-idn.ParsingDataSiswa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D32759291FAACA57005D927E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingDataSiswaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smk-idn.ParsingDataSiswaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParsingDataSiswa.app/ParsingDataSiswa";
+			};
+			name = Debug;
+		};
+		D327592A1FAACA57005D927E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingDataSiswaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smk-idn.ParsingDataSiswaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParsingDataSiswa.app/ParsingDataSiswa";
+			};
+			name = Release;
+		};
+		D327592C1FAACA57005D927E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingDataSiswaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smk-idn.ParsingDataSiswaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParsingDataSiswa;
+			};
+			name = Debug;
+		};
+		D327592D1FAACA57005D927E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ParsingDataSiswaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smk-idn.ParsingDataSiswaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ParsingDataSiswa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32758F81FAACA57005D927E /* Build configuration list for PBXProject "ParsingDataSiswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32759231FAACA57005D927E /* Debug */,
+				D32759241FAACA57005D927E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32759251FAACA57005D927E /* Build configuration list for PBXNativeTarget "ParsingDataSiswa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32759261FAACA57005D927E /* Debug */,
+				D32759271FAACA57005D927E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32759281FAACA57005D927E /* Build configuration list for PBXNativeTarget "ParsingDataSiswaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32759291FAACA57005D927E /* Debug */,
+				D327592A1FAACA57005D927E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D327592B1FAACA57005D927E /* Build configuration list for PBXNativeTarget "ParsingDataSiswaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D327592C1FAACA57005D927E /* Debug */,
+				D327592D1FAACA57005D927E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32758F51FAACA57005D927E /* Project object */;
+}
